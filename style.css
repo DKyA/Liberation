@@ -19,15 +19,29 @@ div {
   left: 16%;
   top: 3%;
   z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 p {
-  position: absolute;
-  left: 22%;
-  top: 2%;
   color: white;
   z-index: 20;
-  font-size: 9vh;
+  line-height: 100%;
+  text-align: center;
+  font-size: 4.5vw;
+  white-space: nowrap;
+  overflow: hidden;
   font-family: 'Chakra Petch', sans-serif;
   text-transform: uppercase;
 }

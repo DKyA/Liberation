@@ -11,8 +11,30 @@
     <title>Liberation</title>
 </head>
 <body>
-    <p>Life</p>
-    <div></div>
+    <div>
+        <p>Life alskdjalslaksjdbla</p>
+    </div>
     <img src="./c56.png" alt="NATOVAWE">
+    <script>
+        const container = document.querySelector("div");
+
+        let text = (() => {
+            return document.querySelector("p");
+        });
+
+        let testFS = 4.5;
+
+        while (container.clientWidth - 1 <= text().clientWidth) {
+            testFS = testFS - 0.2;
+            text().style.letterSpacing = "-0.1em";
+            text().style.fontSize = testFS + 'vw';
+            if (testFS < 0) {
+                console.log("Infinite loop")
+                break;
+            }
+        }
+
+
+    </script>
 </body>
 </html>
