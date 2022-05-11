@@ -23,12 +23,11 @@ div {
 
 p {
   position: absolute;
-  left: 16.5%;
-  top: 3%;
+  left: 22%;
+  top: 2%;
   color: white;
   z-index: 20;
-  font-size: 8vh;
-  letter-spacing: -.1em;
+  font-size: 9vh;
   font-family: 'Chakra Petch', sans-serif;
   text-transform: uppercase;
 }
